@@ -1,9 +1,5 @@
 syntax on " syntax highlighting
-if filereadable(expand("~/.vimrc_background"))
-  let base16colorspace=256
-  source ~/.vimrc_background
-endif
-let g:airline_theme='base16_gruvbox_dark_hard' " colorscheme for airline
+colorscheme gruvbox
 set tabstop=4 " size of a tabstop
 set shiftwidth=4
 set expandtab " tabs are spaces
